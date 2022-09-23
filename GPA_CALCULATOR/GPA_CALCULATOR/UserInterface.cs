@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GPA_CALCULATOR
 {
-    internal class UserInterface
+    public class UserInterface
     {
         static readonly string[] header = new string[] { "COURSE & CODE", "COURSE UNIT", "GRADE", "GRADE-UNIT", "WEIGHT POINT", "REMARK" };
         PrintResult printResult = new PrintResult(header);
@@ -78,7 +78,7 @@ namespace GPA_CALCULATOR
             Console.WriteLine($"Total Course Unit Registered is {gpa.totalUnits}. ");
             Console.WriteLine($"Total Course Unit Passed is {gpa.totalUnitPassed}. ");
             Console.WriteLine($"Total Weight Point is {gpa.totalWeightPoints}. ");
-            Console.WriteLine($"Your GPA is = {GPA} to 2 decimal places. ");
+            Console.WriteLine($"Your GPA is = {GPA}. ");
         }
 
         public void Help()

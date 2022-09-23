@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GPA_CALCULATOR
 {
-    internal class PrintResult
+    public class PrintResult
     {
         private List<object> _columns { get; set; }
 

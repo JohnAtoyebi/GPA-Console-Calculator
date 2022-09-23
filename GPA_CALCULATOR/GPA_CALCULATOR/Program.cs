@@ -19,6 +19,7 @@ namespace GPA_CALCULATOR
 
             UserInterface userInterface = new UserInterface();
 
+            Console.WriteLine();
             Console.WriteLine("Type help to show options");
             Console.Write(">");
             string inputLine = Console.ReadLine().Trim();
@@ -37,7 +38,6 @@ namespace GPA_CALCULATOR
                 {
                     userInterface.Help();
                 }
-
                 else
                 {
                     Console.WriteLine("Command not recognised, type help to see all options");
