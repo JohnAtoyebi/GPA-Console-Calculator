@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GPA_CALCULATOR
 {
-    internal class GradeGPA
+    public class GradeGPA
     {
         public double totalWeightPoints = 0;
         public int totalUnits = 0;
